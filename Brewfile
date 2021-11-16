@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
+brew "autojump"
 brew "gh"
 brew "git"
 brew "python@3.9"
