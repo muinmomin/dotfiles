@@ -6,3 +6,4 @@ brew "gh"
 brew "git"
 brew "node@16", link: true
 brew "tree"
+brew "yarn"
