@@ -37,5 +37,6 @@ alias gll="git pull"
 alias glo="git lg"
 alias gss="git st"
 alias gac="git ac"
+alias gw="git worktree"
 
 eval "$(starship init zsh)"
