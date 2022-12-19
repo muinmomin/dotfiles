@@ -31,12 +31,10 @@ plugins=(git autojump zsh-nvm)
 source $ZSH/oh-my-zsh.sh
 
 # For a full list of active aliases, run `alias`.
-alias soz="source ~/.zshrc"
-unalias gl # was "git pull"
-alias gll="git pull"
-alias glo="git lg"
-alias gss="git st"
+alias zshrc="source ~/.zshrc"
+alias gs="git status -sb"
+alias gl="git lg" # from the git plugin, gl is git pull
+alias gpl="git pull"
 alias gac="git ac"
-alias gw="git worktree"
 
 eval "$(starship init zsh)"
