@@ -32,5 +32,10 @@ source $ZSH/oh-my-zsh.sh
 
 # For a full list of active aliases, run `alias`.
 alias soz="source ~/.zshrc"
+unalias gl # was "git pull"
+alias gll="git pull"
+alias glo="git lg"
+alias gss="git st"
+alias gac="git ac"
 
 eval "$(starship init zsh)"
