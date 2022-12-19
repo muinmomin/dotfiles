@@ -37,6 +37,7 @@ PACKAGES=(
     gh          # GitHub CLI, makes auth easy; codespaces, etc.
     neovim      # editor
     starship    # cross-shell prompt: https://starship.rs/
+    tree       # visualize directories
     tmux        # terminal multiplexer, saving sessions, pane splitting, etc.
 )
 echo "Setup: installing Homebrew packages..."
