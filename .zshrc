@@ -36,5 +36,6 @@ alias gs="git status -sb"
 alias gl="git lg" # from the git plugin, gl is git pull
 alias gpl="git pull"
 alias gac="git ac"
+alias gor="open '$(git config --get remote.origin.url)'"
 
 eval "$(starship init zsh)"
