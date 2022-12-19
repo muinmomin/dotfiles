@@ -34,10 +34,11 @@ brew tap homebrew/cask-fonts
 # Install Homebrew packages
 PACKAGES=(
     autojump    # moving around directories quickly in zsh
+    fzf         # general purpose fuzzy finder (CTRL-T all files in curr dir, CTRL-R history)
     gh          # GitHub CLI, makes auth easy; codespaces, etc.
     neovim      # editor
     starship    # cross-shell prompt: https://starship.rs/
-    tree       # visualize directories
+    tree        # visualize directories
     tmux        # terminal multiplexer, saving sessions, pane splitting, etc.
 )
 echo "Setup: installing Homebrew packages..."

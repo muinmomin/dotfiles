@@ -26,7 +26,7 @@ ZSH_THEME=""
 export NVM_LAZY_LOAD=true
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-nvm)
+plugins=(git autojump zsh-nvm fzf)
 
 source $ZSH/oh-my-zsh.sh
 
